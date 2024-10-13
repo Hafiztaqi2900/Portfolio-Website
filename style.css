@@ -29,12 +29,15 @@ body{
 .main-section{
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
 }
 .first{
-    background-color: red;
     width: 35%;
 }
 .second{
-    background-color: blue;
-    width: 35%;
+    width: 35%;  
+}
+.img1{
+    width: 70%;
+    margin: 50px 0;
 }
