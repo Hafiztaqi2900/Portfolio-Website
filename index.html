@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="animation.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
     <header>
-        <nav class="nav1" >
-            <div class="cont-1">Taqi's Portfolio</div>
-            <div>
-                <ul class="list1" >
-                    <a class="attri1" href="/"><li >Home</li></a>
-                    <a class="attri1" href="/"><li >About</li></a>
-                    <a class="attri1" href="/"><li >Services</li></a>
-                    <a class="attri1" href="/"><li >Projects</li></a>
-                    <a class="attri1" href="/"><li >Contact Me</li></a>
-                </ul>
-            </div>
-        </nav>
+      <nav class="nav1">
+        <div class="cont-1">Taqi's Portfolio</div>
+        <div>
+          <ul class="list1">
+            <a class="attri1" href="/"><li>Home</li></a>
+            <a class="attri1" href="/"><li>About</li></a>
+            <a class="attri1" href="/"><li>Services</li></a>
+            <a class="attri1" href="/"><li>Projects</li></a>
+            <a class="attri1" href="/"><li>Contact Me</li></a>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <div class="main-section" >
-        <div class="first">
-            Hi, My name is <span class="spn1" >Muhammad Taqi</span>, <br>
-            and I am front-end developer.
-        </div>
-        <div class="second">
-            <img class="img1" src="bg-removebg-preview.png" alt="">
-        </div>
+    <div>
+        <div class="main-section">
+      <div class="first">
+        <p>
+          Hi, l am <span class="spn1">Muhammad Taqi</span>, <br />
+          a <span class="spn1">Front-End Developer</span>.l love to code in my
+          spare time mostly. I have made varity of websites.Using
+        </p>
+        <span id="element"></span>
+      </div>
+      <div class="second">
+        <img class="img1" src="bg-removebg-preview.png" alt="" />
+      </div>
     </div>
-</body>
+    <div class="second-section">
+        
+    </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["HTML", "CSS", "JAVASCRIPT", "WORDPRESS", "BOOSTRAP"],
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
 </html>
