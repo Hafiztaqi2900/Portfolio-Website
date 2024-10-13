@@ -30,3 +30,11 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.first{
+    background-color: red;
+    width: 35%;
+}
+.second{
+    background-color: blue;
+    width: 35%;
+}
