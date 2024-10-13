@@ -42,7 +42,7 @@ body{
 .first{
     font-family: 'Times New Roman', Times, serif;
     width: 35%;
-    margin: 100px;
+    margin: 105px ;
     font-size: 2rem;
 }
 .second{
@@ -55,4 +55,9 @@ body{
 .spn1{
     font-weight: bold;
     font-style: italic;
+}
+.second-section{
+    margin: auto;
+    max-width: 100vw;
+    height: 80vh;
 }
