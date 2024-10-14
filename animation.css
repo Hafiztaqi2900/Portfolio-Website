@@ -2,3 +2,7 @@
     color: rgb(153, 153, 226);
     font-size: 1.04rem;
 }
+.para2:hover{
+    color: red;
+    font-size: 1.05rem;
+}
