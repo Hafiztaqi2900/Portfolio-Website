@@ -1,6 +1,29 @@
 
-@media screen and (max-width:2000px){
+@media screen and (max-width:1350px){
     .main-section{
+        justify-content: center;
+        /* align-items: center; */
         flex-direction:column-reverse;
+    }
+    .third{
+        flex-direction: column-reverse;
+        width: 50vw;
+    }
+    .sub-section1{
+        left: 45px;
+        height: unset;
+    }
+    .first{
+        width: 100% !important ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .second{
+        width: 721px !important;
     }
 }
