@@ -37,19 +37,20 @@ body{
 .main-section{
     display: flex;
     justify-content: space-around;
-    /* padding-top: 20px; */
+    margin: 80px 0;
 }
 .first{
     font-family: 'Times New Roman', Times, serif;
-    width: 35%;
-    margin: 105px ;
+    width: 30%;
+    margin: 30px ;
     font-size: 2rem;
 }
-.second{
-    width: 35%;  
-}
+/* .second{
+    width: 30%;
+    margin: 50px 0;  
+} */
 .img1{
-    width: 70%;
+    width: 80%;
     margin: 50px 0;
 }
 .spn1{
@@ -95,4 +96,7 @@ body{
     border-radius: 6px;
     font-size: 20px;
     cursor: pointer;
+}
+.urgent{
+    display: flex;
 }
