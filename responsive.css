@@ -32,14 +32,14 @@
         flex-direction:column-reverse;
     }
     .first{
-        width: 1150px;
+        width: 1090px;
     }
     .second{
-        width: 1200px;
+        width: 1090px;
         margin-left:60px ;
     }
     .nav1{
-        width: 1300px;
+        width: 1098px;
         font-size: 35px;
     }
     .urgent{    
@@ -52,26 +52,26 @@
         justify-content: center;
     }
     .abc{
-        width: 1000px;
+        width: 900px;
     }
     /* .xyz{
         width: 1300px;
         height: 50px;
         } */
     .third{
-        width: 1200px;
+        width: 1000px;
         font-size: 30px;
     }
     .third-section{
         justify-content: center;
     }
     .abd{
-        width: 1300px;
+        width: 1090px;
         height: 25px;
         font-size: 40px;
     } 
     .para1{
-        width: 1220px;
+        width: 1000px;
         height: 35px;
     }
     .para-media{
@@ -81,4 +81,16 @@
     .fourth{
         
     }
+    footer{
+        width: 1090px;
+        }
+        .footer1{
+            font-size: 20px;
+        }
+        .footer2{
+            font-size: 25px;
+        }
+        .github-img{
+            font-size: 30px;
+        }
 }
