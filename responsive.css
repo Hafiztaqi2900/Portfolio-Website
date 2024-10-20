@@ -48,4 +48,21 @@
     .btn{
         font-size: 35px;
     }
+    .second-section{
+        justify-content: center;
+    }
+    .abc{
+        width: 900px;
+    }
+    .xyz{
+        width: 1200px;
+    }
+    .third{
+        width: 1200px;
+        font-size: 30px;
+    }
+    .third-section{
+        justify-content: center;
+    }
+    
 }
