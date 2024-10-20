@@ -1,32 +1,75 @@
-/* 
-@media screen and (max-width:1350px){
+@media screen and (max-width:700px){
+    /* body{
+        width: 1000px;
+    } */
     .main-section{
         justify-content: center;
         flex-direction:column-reverse;
     }
-    .third{
-        flex-direction: column-reverse;
-        width: 50vw;
-    }
-    .sub-section1{
-        left: 45px;
-        height: unset;
-    }
     .first{
-        width: 100% !important ;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    nav{
-        flex-direction: column;
+        width: 1090px;
     }
     .second{
-        width: 721px !important;
+        width: 1090px;
+        margin-left:60px ;
     }
-} */
-@media screen and (max-width:700px){
+    .nav1{
+        width: 1108px;
+        font-size: 35px;
+    }
+    .urgent{    
+        justify-content: center;
+    }
+    .btn{
+        font-size: 35px;
+    }
+    .second-section{
+        justify-content: center;
+    }
+    .abc{
+        width: 900px;
+    }
+    /* .xyz{
+        width: 1300px;
+        height: 50px;
+        } */
+    .third{
+        width: 1000px;
+        font-size: 30px;
+    }
+    .third-section{
+        justify-content: center;
+    }
+    .abd{
+        width: 1090px;
+        height: 25px;
+        font-size: 40px;
+    } 
+    .para1{
+        width: 1000px;
+        height: 35px;
+    }
+    .para-media{
+        padding-right: 100px;
+        font-size: 25px;
+    }
+    /* .fourth{
+        
+    } */
+    footer{
+        width: 1110px;
+        }
+        .footer1{
+            font-size: 20px;
+        }
+        .footer2{
+            font-size: 25px;
+        }
+        .github-img{
+            font-size: 30px;
+        }
+}
+@media screen and (min-width:400px){
     /* body{
         width: 1000px;
     } */
