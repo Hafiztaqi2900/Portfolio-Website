@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Service which I provide</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="animation.css">
     <!-- <link rel="stylesheet" href="style.css"> -->
     <style>
+      *{
+    margin: 0px;
+    padding: 0px;
+}
       body {
         background-color: rgb(0, 0, 33);
         color: white;
@@ -50,8 +55,7 @@
         text-align: center;
         text-decoration:none;
         color: white;
-        list-style: none;
-    }
+        list-style: none;}
     .nav1{
     display: flex;
     justify-content: space-around;
@@ -74,46 +78,64 @@
 }
 .attri1{
     list-style: none;
-    margin: 0 25px;
+    /* margin:0 5px; */
     text-decoration: none;
     color: white;
+    
+}
+#service-header{
+  display: flex;  
+  height: 65px;
+  width: 1180px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(18, 18, 62);
     
 }
     </style>
   </head>
   <body>
-    <header>
-        <nav class="nav1">
-          <div class="cont-1">Developer Portfolio</div>
-          <div>
-            <ul class="list1">
-              <a class="attri1" href="index.html"><li>Home</li></a>
-              <!-- <a class="attri1" href="/"><li>About</li></a> -->
-              <a class="attri1" href="services.html"><li>Services</li></a>
-              <a class="attri1" href="projects.html"><li>Projects</li></a>
-            </ul>
-          </div>
-        </nav>
-      </header>
+    <header >
+    <nav id="service-header"  >
+      <div class="cont-1">Developer Portfolio</div>
+      <div  >
+        <ul  class="list1">
+          <a class="attri1" href="index.html"><li>Home</li></a>
+          <!-- <a class="attri1" href="/"><li>About</li></a> -->
+          <a class="attri1" href="services.html"><li>Services</li></a>
+          <a class="attri1" href="projects.html"><li>Projects</li></a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <br>
+  <br>
     <h1>Welcome to My Portfolio!</h1>
-    <span class="services-spn1"
-      >Hi, I’m Muhammad Taqi, a passionate Front-End Developer with a knack for
-      creating sleek, user-friendly, and responsive websites. </span> <br />
-      <br />
-      <span class="services-spn1" >My goal is to turn ideas into visually appealing, interactive, and
-      functional web experiences. With a strong grasp of modern web
-      technologies,</span> <br />
-      <br />
+    <br>
+    <br>
+   <div class="services-first" > <span class="services-spn1"
+      >Hi, I’m Muhammad Taqi, a passionate Front-End Developer with a knack for</span></div><br>
+      <div class="services-first"> <span class="services-spn1">
+        creating sleek, user-friendly, and responsive websites. </span> </div><br />
+      <div class="services-first" ><span class="services-spn1" >My goal is to turn ideas into visually appealing, interactive, and
+      functional </span></div>
+      <div class="services-first" ><br>
+      <span class="services-spn1">web experiences . With a strong grasp of modern web technologies,</span> </div><br />
+      <div class="services-first" >
       <span class="services-spn1"> I bring together creativity and code to build solutions that not only look
-      great but also perform seamlessly across devices.</span
-    >
+      great</span></div>
+      <br>
+    <div class="services-first" ><span class="services-spn1" > but also perform seamlessly across devices.</span></div>
     <br>
     <br>
     <br>
     <h1>What I Do ?</h1>
+    <br>
+    <div class="services-first">
     <span class="services-spn1">
-        I am specialixing in frontend development of websites and webapps using following languages :    </span>
-    <ul>
+        I am specialixing in frontend development of websites and </span></div> <br> 
+        <div class="services-first" ><span  class="services-spn1">webapps using following languages :    </span></div>
+    <br>    <ul>
         <li>HTML & CSS: Crafting clean, well-structured code to lay the foundation for visually appealing web pages.</li>
         <br>
         <li>JavaScript: Adding interactivity to make websites engaging and dynamic. </li>
@@ -126,13 +148,21 @@
     <br>
     <br>
     <h1>My Approach</h1>
-    <span class="services-spn1">I believe in crafting websites that are a perfect blend of aesthetics and functionality. I am committed to writing clean, maintainable code </span>
+    <br><br>
+    <div  class="services-first">
+    <span class="services-spn1">I believe in crafting websites that are a perfect blend of aesthetics </span></div>
+    <br> 
+      <div class="services-first" ><span class="services-spn1"> and functionality.</span></div>
+    <br>  
+    <div class="services-first" ><span class="services-spn1" > I am committed to writing clean, maintainable code </span></div>
     <br>
+    <div class="services-first">
+    <span class="services-spn1">And staying up-to-date with the latest trends in web development. </span></div>
     <br>
-    <span class="services-spn1">and staying up-to-date with the latest trends in web development.  Whether you need a personal blog, a corporate website, </span>
+    <div class="services-first" ><span class="services-spn1" > Whether you need a personal blog, a corporate website, </span>
+  </div>
     <br>
-    <br>
-    <span class="services-spn1" > or a fully customized WordPress solution, I’m here to help bring your vision to life.</span>
+    <span class="services-spn1" > or a customized WordPress solution, I’m here to help bring your vision to life.</span>
     <br>
     <br>
     <footer>
